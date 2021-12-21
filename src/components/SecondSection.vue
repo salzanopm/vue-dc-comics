@@ -8,7 +8,11 @@
                 <li>1</li>
                 <li>1</li>
             </ul>
+            <span class="second-section-title">
+            current series
+            </span>
         </section>
+        
     </div>
 </template>
 
@@ -20,10 +24,12 @@ export default {
 
 <style scoped>
     .second-section {
-        
+        width: 70%;
         font-size: 20px;
         color: white;
         height: 100px;
+        position: relative;
+        margin: auto;
     }
 
     .active-links-second-section {
@@ -34,6 +40,16 @@ export default {
 
 
     .container {
+        background-color: black;
+        
+    }
+
+    .second-section-title {
         background-color: #0282f9;
+        text-transform: uppercase;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        padding: 10px;
     }
 </style>

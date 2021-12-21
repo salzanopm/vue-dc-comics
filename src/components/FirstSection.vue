@@ -25,6 +25,9 @@ export default {
     }
 
     .container {
-        background-color: black;
+        background-image: url('../assets/img/jumbotron.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 275px;
     }
 </style>

@@ -1,8 +1,9 @@
 <template>
   <div id="app">
       <Header />
-      <First-Section />
-      <Second-Section />
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
       <Footer />
       <Bottom-Footer />
   </div>
@@ -12,6 +13,7 @@
 import Header from "./components/Header.vue";
 import FirstSection from "./components/FirstSection.vue";
 import SecondSection from "./components/SecondSection.vue";
+import ThirdSection from "./components/ThirdSection.vue";
 import Footer from "./components/Footer.vue";
 import BottomFooter from "./components/BottomFooter.vue";
 export default {
@@ -20,6 +22,7 @@ export default {
     Header,
     FirstSection,
     SecondSection,
+    ThirdSection,
     Footer,
     BottomFooter
   },
