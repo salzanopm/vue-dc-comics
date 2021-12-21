@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="header-container">
+        <div class="container">
             <div class="header-box">
                 <div>
                     <img src="../assets/img/dc-logo.png" alt="logo dc comics">
@@ -30,10 +30,7 @@ export default {
 
 <style scoped>
 
-    .header-container {
-        height: 90px;
-        display: flex;
-    }
+    
 
     .nav-bar {
         display: flex;
@@ -48,11 +45,12 @@ export default {
 
     *[class$="blue"] {
         border-bottom: 4px solid blue;
-        line-height: 70px;
+        line-height: 107px;
     }
 
     img {
         width: 100%;
+        height: 100px;
     }
 
     
@@ -64,6 +62,11 @@ export default {
       justify-content: space-between;
       
     }
+
+    header {
+        padding:10px;
+    }
+   
 
 
 </style>

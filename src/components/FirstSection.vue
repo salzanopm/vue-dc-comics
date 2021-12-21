@@ -1,7 +1,9 @@
 <template>
-    <section class="first-section">
-        <h2>Content goes here</h2>
-    </section>
+    <div class="container">
+        <section class="first-section">
+            <h2>Content goes here</h2>
+        </section>
+    </div>
 </template>
 
 <script>
@@ -12,8 +14,17 @@ export default {
 
 <style scoped>
     .first-section {
-        background-color: black;
+        
         font-size: 20px;
         color: white;
+        height: 100px;
+        vertical-align: middle;
+        line-height: 100px;
+        margin: auto;
+        width: 70%;   
+    }
+
+    .container {
+        background-color: black;
     }
 </style>
