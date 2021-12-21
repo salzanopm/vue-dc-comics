@@ -4,34 +4,41 @@
             <div class="left">
                 <ul>
                     DC COMICS
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                    <li>Charachters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>TV</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
                 </ul>
                 <ul>
-                    DC COMICS
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                    SHOP
+                    <li>Shop DC</li>
+                    <li>Shop DC collectibles</li>
                 </ul>
                 <ul>
-                    DC COMICS
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                    DC
+                    <li>Term of use</li>
+                    <li>Privacy Policy (New)</li>
+                    <li>Ad Choices</li>
+                    <li>Advertising</li>
+                    <li>Jobs</li>
+                    <li>Subscriptions</li>
+                    <li>Talent Workshops</li>
+                    <li>CPSC Certificates</li>
+                    <li>Ratings</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
                 </ul>
                 
                 <ul>
                     DC COMICS
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                    <li>DC</li>
+                    <li>MAD Magazine</li>
+                    <li>DC Kids</li>
+                    <li>DC Universe</li>
+                    <li>DC Power Visa</li>
                 </ul>
             </div>
             <div class="right">
@@ -49,8 +56,8 @@ export default {
 
 <style scoped>
     .container {
-        width: 70%;
-        margin: auto;
+        
+        
         height: 200px;
         background-image: url('../assets/img/footer-bg.jpg');
         color:white;
@@ -60,6 +67,8 @@ export default {
         display: flex;
         justify-content: space-between;
         height: 100%;
+        width: 70%;
+        margin: auto;
     }
     .left {
         display: flex;
@@ -85,10 +94,11 @@ export default {
     }
 
     ul {
-        padding: 10px;
+        padding: 5px 10px;
     }
 
     li {
-        font-size: 8px;
+        font-size: 9px;
+        color: #628181;
     }
 </style>

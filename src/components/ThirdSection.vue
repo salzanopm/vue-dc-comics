@@ -4,23 +4,23 @@
             <ul>
                 <li>
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                    <span>1</span>
+                    <span>DIGITAL COMICS</span>
                 </li>
                 <li>
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                    <span>1</span>
+                    <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                    <span>DC MERCHANDISE</span>
                 </li>
                 <li>
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                    <span>1</span>
+                    <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                    <span>SUBSCRIPTION</span>
                 </li>
                 <li>
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                    <span>1</span>
+                    <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                    <span>COMIC SHOP LOCATOR</span>
                 </li>
                 <li>
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                    <span>1</span>
+                    <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                    <span>DC POWER VISA</span>
                 </li>
             </ul>
         </section>
@@ -58,10 +58,14 @@ export default {
         height: 100%;
         display: flex;
         align-items: center;
+        font-size: 10px;
+        padding: 8px;
+
     }
 
     img {
         height: 100%;
+        margin-right: 5px;
     }
 
 

@@ -45,8 +45,5 @@ export default {
   list-style-type: none;
 }
 
- .container {
-        height: 100px;
-      
-    }
+
 </style>

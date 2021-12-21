@@ -9,13 +9,13 @@
                     <li>CHARACTERS</li>
                     <li class="-blue">COMICS</li>
                     <li>MOVIES</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>COMICS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
+                    <li>TV</li>
+                    <li>GAMES</li>
+                    <li>COLLECTIBLES</li>
+                    <li>VIDEOS</li>
+                    <li>FAN</li>
+                    <li>NEWS</li>
+                    <li>SHOP</li>
                 </ul>
             </div>
         </div>
@@ -36,27 +36,31 @@ export default {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        height: 66px;
     }
 
     li {
         padding: 0 10px;
-        font-size: 10px;
+        font-size: 8px;
+        font-weight: bold;
+      
     }
 
     *[class$="blue"] {
         border-bottom: 4px solid blue;
-        line-height: 107px;
+        line-height: 63px;
+        padding-top: 4px;
     }
 
     img {
         width: 100%;
-        height: 100px;
+        height: 60px;
     }
 
     
 .header-box {
       width: 70%;
-      height: 100px;
+      height: 60px;
       margin: auto;
       display: flex;
       justify-content: space-between;

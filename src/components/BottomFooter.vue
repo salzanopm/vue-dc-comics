@@ -2,17 +2,16 @@
     <div class="container">
         <div class="bottom-footer-container">
             <div class="left">
-                <button>mfimrivnc</button>
+                <button>SIGN-UP NOW!</button>
             </div>
             <div class="right">
-                <span>FOLLOW US</span>
+                <span class="blue">FOLLOW US</span>
                 <ul>
                     <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
+                    <li><img src="../assets/img/footer-periscope.png" alt=""></li>
+                    <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
+                    <li><img src="../assets/img/footer-twitter.png" alt=""></li>
+                    <li><img src="../assets/img/footer-youtube.png" alt=""></li>
                 </ul>
             </div>
         </div>
@@ -53,6 +52,22 @@ export default {
     }
 
     li{
-        padding: 0 10px;
+        padding: 0 6px;
+    }
+
+    button {
+        padding: 8px;
+        background-color: #303030;
+        border: 2px solid #0282f9;
+        color: white;
+    }
+
+    .blue {
+        color: #0282f9;
+        font-weight: bolder;
+    }
+
+    img {
+        height: 27px;
     }
 </style>
