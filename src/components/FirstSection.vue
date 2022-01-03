@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <section class="first-section">
-            <h2>Content goes here</h2>
+            
         </section>
     </div>
 </template>
@@ -29,5 +29,6 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         height: 275px;
+        
     }
 </style>

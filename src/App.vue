@@ -15,6 +15,7 @@ import FirstSection from "./components/FirstSection.vue";
 import SecondSection from "./components/SecondSection.vue";
 import ThirdSection from "./components/ThirdSection.vue";
 import Footer from "./components/Footer.vue";
+
 import BottomFooter from "./components/BottomFooter.vue";
 export default {
   name: "App",
